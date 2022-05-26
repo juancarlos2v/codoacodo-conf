@@ -1,0 +1,91 @@
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 1rem;
+    background-color: rgb(92, 92, 92);
+}
+
+nav p,
+a {
+    color: white;
+}
+
+nav a {
+    margin-left: 1rem;
+}
+
+nav>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+nav>div+div {
+    width: 70%;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../imagenes/ba1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 50rem;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    padding-top: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.banner p {
+    width: 40%;
+    text-align: right;
+}
+
+.banner>div {
+    display: flex;
+}
+
+
+/******/
+
+.oradores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8rem 0 8rem;
+}
+
+.evento>.card {
+    max-width: 100% !important;
+    background-color: gray;
+    color: white;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20rem 0 20rem;
+}
+
+.contacto input {
+    margin: 1;
+}
+
+footer {
+    background-color: rgb(58, 72, 112);
+    padding: 2rem 9rem 2rem 9rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
